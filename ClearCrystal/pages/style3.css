@@ -1,0 +1,61 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --heading: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background:#fff;
+
+}
+
+.storythumbnail img{
+    size: 8px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.topper h2{
+    font-size: 35px;
+    background: #252525;
+    color: #fff;
+}
+
+.main-content{
+    background: #f2f2;
+    font-size: 20px;
+    
+    
+}
+
+.footer{
+    background: #252525;
+    border-top: 3px solid #f2f2;
+    height: 100px;
+
+}
+
+.footer .sharebutton{
+    font-size: 20px;
+    background: orange;
+    width: fit-content;
+    margin-left: 200px;
+    margin-top: 30px;
+    border: 5px;
+    padding: 6px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+
+
+.footer .sharebutton:hover{
+    color: #fff 2s ease in out;
+}
